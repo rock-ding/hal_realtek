@@ -34,7 +34,8 @@
 /* define macros for MAC driver porting on the specified platform here */
 #if defined(__ZEPHYR__)
 #if defined(DEV_BUILD)
-#include "rtl876x.h"                           /*!< ARM Cortex-M4 processor and core peripherals                              */
+#include "address_map.h"
+#include "cpu_setting.h"
 #endif
 #else
 #include "rtl876x.h"                           /*!< ARM Cortex-M4 processor and core peripherals                              */

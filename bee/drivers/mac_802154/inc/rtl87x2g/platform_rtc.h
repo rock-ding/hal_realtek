@@ -22,7 +22,6 @@
  *============================================================================*/
 #include <stdint.h>
 #include <stdbool.h>
-#include "rtl876x.h"
 
 #ifdef __cplusplus
 extern "C" {
